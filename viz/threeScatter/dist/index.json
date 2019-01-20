@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "id": "heading",
+      "heading": "Plot Data",
+      "elements": [
+        {
+          "id": "scatterAxesX",
+          "label": "X Axis",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "scatterAxesY",
+          "label": "Y Axis",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "scatterAxesZ",
+          "label": "Z Axis",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "dimensions",
+          "label": "Dimension(s)",
+          "type": "DIMENSION",
+          "option": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "options",
+      "heading": "Options",
+      "elements": [
+        {
+          "id": "devMessages",
+          "label": "Show debugging messages?",
+          "defaultValue": "false",
+          "type": "CHECKBOX"
+        },
+        {
+          "id": "showBox",
+          "label": "Show grid box?",
+          "defaultValue": "true",
+          "type": "CHECKBOX"
+        },
+        {
+          "id": "interactive",
+          "label": "Interactive mode?",
+          "defaultValue": "true",
+          "type": "CHECKBOX"
+        },
+        {
+          "id": "bgColor",
+          "label": "Background Color",
+          "defaultValue": "#000000",
+          "type": "FILL_COLOR"
+        },
+        {
+          "id": "alphaOneColor",
+          "label": "Alpha One Bound",
+          "defaultValue": "#77ffaa",
+          "type": "FILL_COLOR"
+        },
+        {
+          "id": "alphaTwoColor",
+          "label": "Alpha Two Bound",
+          "defaultValue": "#77aaff",
+          "type": "FILL_COLOR"
+        }
+      ]
+    }
+  ]
+}

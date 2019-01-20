@@ -1,0 +1,25 @@
+{
+  "name": "3d Scatter Plot",
+  "organization": "Jesse R. Castro",
+  "description": "A 3d scatter plot made with three.js.",
+  "logoUrl": "https://logo",
+  "organizationUrl": "https://url",
+  "supportUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "supportUrl": "https://url",
+  "devMode": "DEVMODE_BOOL",
+  "components": [
+    {
+      "name": "threeScatter",
+      "description": "3d Scatter Plot",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB3aWR0aD0iMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNODk2IDE2MjlsNjQwLTM0OXYtNjM2bC02NDAgMjMzdjc1MnptLTY0LTg2NWw2OTgtMjU0LTY5OC0yNTQtNjk4IDI1NHptODMyLTI1MnY3NjhxMCAzNS0xOCA2NXQtNDkgNDdsLTcwNCAzODRxLTI4IDE2LTYxIDE2dC02MS0xNmwtNzA0LTM4NHEtMzEtMTctNDktNDd0LTE4LTY1di03NjhxMC00MCAyMy03M3Q2MS00N2w3MDQtMjU2cTIyLTggNDQtOHQ0NCA4bDcwNCAyNTZxMzggMTQgNjEgNDd0MjMgNzN6Ii8+PC9zdmc+",
+      "resource": {
+        "js": "YOUR_GCS_BUCKET/index.js",
+        "config": "YOUR_GCS_BUCKET/index.json",
+        "css": "YOUR_GCS_BUCKET/index.css"
+      }
+    }
+  ]
+}

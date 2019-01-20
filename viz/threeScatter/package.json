@@ -1,0 +1,35 @@
+{
+  "config": {
+    "gcsDevBucket": "YOUR_DEV_BUCKET",
+    "gcsProdBucket": "YOUR_PROD_BUCKET",
+    "jsFile": "index.js",
+    "jsonFile": "index.json",
+    "manifestFile": "manifest.json",
+    "cssFile": "index.css"
+  },
+  "scripts": {
+    "build:dev": "(rm -rf ./dist && webpack --config ./scripts/webpack.dev.js)",
+    "build:prod": "(rm -rf ./dist && webpack --config ./scripts/webpack.prod.js)",
+    "push:dev": "node scripts/push.js --prod false",
+    "push:prod": "node scripts/push.js --prod true",
+    "deploy:dev": "(npm run build:dev && npm run push:dev)",
+    "deploy:prod": "(npm run build:prod && npm run push:prod)"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.2",
+    "commander": "^2.19.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "replace-in-file-webpack-plugin": "^1.0.6",
+    "shelljs": "^0.8.2",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4",
+    "webpack-plugin-replace": "^1.1.1"
+  },
+  "dependencies": {
+    "@google/dscc": "0.2.1",
+    "d3": "^5.7.0",
+    "three": "^0.100.0"
+  }
+}
